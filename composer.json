@@ -1,0 +1,24 @@
+{
+    "name": "nholuongut/magento-2-importing-library",
+    "description": "",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "prewk/xml-string-streamer": "^0.7.2",
+        "prewk/xml-string-streamer-guzzle": "^0.1.0",
+        "kevinrob/guzzle-cache-middleware": "^1.4",
+        "ecomdev/magento-psr6-bridge": "^0.2.1",
+        "symfony/stopwatch": "~4.0",
+        "bakame/psr7-csv-factory": "^1.0@dev",
+        "league/csv": "^9.1"
+    },
+    "type": "magento2-module",
+    "version": "0.4.2",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ho\\Import\\": "src/"
+        }
+    }
+}
